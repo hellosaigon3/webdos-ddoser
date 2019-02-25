@@ -132,7 +132,7 @@ if [ $SA = 5 ]; then
 for i in {1..5}
 do xterm -e python3 source.py -s $web -p $port -t $thread &
 done
-fi
+
 fi
 if [ $SA = 6 ]; then
 for i in {1..6}
